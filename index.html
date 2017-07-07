@@ -45,6 +45,25 @@
 </head>
 
 <body id="page-top">
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1880926812230484',
+          xfbml      : true,
+          version    : 'v2.9'
+        });
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -108,6 +127,7 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-left">
                     <hr class="light">
+
                     <p class="text-faded">「海外臺灣青年陣線」(Overseas Taiwanese for Democracy, OTD) 源自於 2014 年，是各地聲援太陽花學運的組織串連的延續。近三年來，我們的成員在海外各城市持續經營哲學星期五、g0v、讀書會、紀錄片放映以及街頭倡議，也在反黑箱課綱與割闌尾計畫和婚姻平權議題上，串起連結國際公民社會的聲援力量。我們希望藉由持續關懷臺灣與在地社群，連結國際公民社會，推動臺灣民主憲政的深化與改革。「海外臺灣青年陣線」相信，公民意識的持續培力不輟是達成臺灣作為一個種族、性別、階級平等社會的必要途徑；而具有論述能力與責任承擔的成熟公民將會成為不可撼動的基柱，捍衛臺灣作為公義為尚、主權獨立的國家。</p>
                 </div>
             </div>
@@ -121,7 +141,7 @@
                     <h2 class="section-heading">2017 OTD Summit 介紹</h2>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-left">
-
+                    
                     <hr class="primary">
                     <p class="text">繼2015年4月在西雅圖舉行首屆OTD Summit後，第二屆OTD Summit首度與已有40多年歷史的「美東台灣人夏令會」（Taiwanese American Conference-East Camp）以及「新生代臺美人協會」（Taiwanese American Next Generation, TANG）合作，於7月1日-4日在賓州West Chester University進行。呼應大會主題「世代連結，台美一起」，期待能提供一個機會，讓不同世代的在美台灣人進行更深入的交流。
                     <br/>
